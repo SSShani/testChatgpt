@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: #fff;
+}
+
+.top-bar {
+    position: relative;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.brand {
+    float: left;
+    line-height: 60px;
+    text-decoration: none;
+    color: #5D5D5D;
+    font-size: 14px;
+}
+
+
+.brand-icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.main-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+.main-nav a {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+.actions {
+    position: relative;
+    float: right;
+
+    line-height: 60px;
+}
+
+
+
+.btn-dark {
+    background: #0D0D0D;
+    color: #fff;
+}
+
+
+.btn-outline {
+    border: 1px solid  #8F8F8F;
+    color: #0D0D0D;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    line-height: normal;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.btn-help {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid #0D0D0D;
+    background: none;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    padding-top: 170px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+}
+
+.ask-box {
+    position: relative;
+    width: 640px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 14px 15px;
+    text-align: left;
+    border: 1px solid #8F8F8F;
+    border-radius: 24px;
+}
+
+
+.ask-box input {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+
+.ask-box input::placeholder {
+    color: #6E6E6E;
+}
+
+.tools {
+    margin-top: 15px;
+}
+
+.tool-btn {
+    padding: 5px 12px;
+    border: 1px solid #8F8F8F;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 11px;
+}
+
+.voice-btn {
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 20px;
+  background: #ECECEC;
+  font-size: 11px;
+}

@@ -1,0 +1,51 @@
+.top-bar {
+  height: 60px;
+  padding: 0 20px;
+}
+
+.brand {
+  float: left;
+  line-height: 60px;
+  text-decoration: none;
+  color: #5D5D5D;
+  font-size: 14px;
+}
+.brand-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.actions {
+  float: right;
+  line-height: 60px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: normal;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.btn-dark {
+  background: #0D0D0D;
+  color: #fff;
+}
+.btn-outline {
+  background: #fff;
+  border: 1px solid #EAEAEA;
+  color: #0D0D0D;
+}
+
+.btn-help {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid #5D5D5D;
+  background: none;
+  vertical-align: middle;
+}
